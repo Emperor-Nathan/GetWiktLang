@@ -270,7 +270,7 @@ def quickList():
     mode = 1
     rr = ''
     while t:
-        t = nativefile.read(1)
+        t = ql_file.read(1)
         if t == '\n':
             ql.append(la)
             mode = 1
