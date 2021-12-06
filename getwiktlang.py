@@ -182,21 +182,17 @@ def sortDiff():
     for a in sort(diff):
         print(a[0], a[1], sep='\t')
 
-def createList(num): #Creates Python list of languages in order
-    strn = '['
-    n = 0
-    while n < num:
-        strn += '\''
-        for a in sl[n+1][0]:
-            if a == '\'':
-                strn += '\\\''
+def createList():
+    allfile = open('all.txt', 'w')
+    for a in sl:
+        c = ''
+        for e in a[0]:
+            if ord(e) < 128:
+                c += e
             else:
-                strn += a
-        strn += '\',\n'
-        n += 1
-    strn = strn[:(len(strn) - 2)]
-    strn += ']'
-    print(strn)
+                c += '&#' + str(ord(e)) + ';'
+        allfile.write(c + '\n')
+    allfile.close()
 
 def scrollUp(event):
     global j
