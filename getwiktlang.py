@@ -260,6 +260,7 @@ except IndexError:
     zz = 0
 
 def quickList():
+    ql = []
     ql_file = open('quicklist.txt')
     t = '*'
     la = ''
