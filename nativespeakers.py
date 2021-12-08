@@ -65,6 +65,7 @@ for a in langlist:
         properties = speakerdiv2[n].find_all('div', {'class':'wikibase-snaklistview-listview'})
         year = 0
         native = False
+        juris = False
         for b in properties:
             propname = b.find('div', {'class':'wikibase-snakview-property'}).find('a')
             if propname['title'] == 'Property:P585':
@@ -83,7 +84,9 @@ for a in langlist:
             elif propname['title'] == 'Property:P518':
                 if b.find('div', {'class':'wikibase-snakview-value wikibase-snakview-variation-valuesnak'}).find('a')['title'] == 'Q36870':
                     native = True
-        if year > maxyear and native:
+            elif propname['title'] == 'Property:P1001':
+                juris = True
+        if year > maxyear and native and not juris:
             found = True
             maxyear = year
             best = n
@@ -93,6 +96,7 @@ for a in langlist:
             properties = speakerdiv2[n].find_all('div', {'class':'wikibase-snaklistview-listview'})
             year = 0
             second = False
+            juris = False
             for b in properties:
                 propname = b.find('div', {'class':'wikibase-snakview-property'}).find('a')
                 if propname['title'] == 'Property:P585':
@@ -109,7 +113,9 @@ for a in langlist:
                 elif propname['title'] == 'Property:P518':
                     if b.find('div', {'class':'wikibase-snakview-value wikibase-snakview-variation-valuesnak'}).find('a')['title'] == 'Q125421':
                         second = True
-            if year > maxyear and not second:
+                elif propname['title'] == 'Property:P1001':
+                    juris = True
+            if year > maxyear and not second and not juris:
                 found = True
                 maxyear = year
                 best = n
