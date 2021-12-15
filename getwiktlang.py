@@ -1,7 +1,22 @@
 from bs4 import BeautifulSoup
 from requests import get
 from tkinter import *
-import math, sys#, langmap
+import math, sys, csv#, langmap
+
+size = [0, 0]
+sizefile = open('size.csv', 'r')
+rdr = csv.reader(sizefile, delimiter = ',')
+for row in rdr:
+    if row[0].lower() == 'width':
+        size[0] = int(row[1])
+    elif row[0].lower() == 'height':
+        size[1] = int(row[1])
+sizefile.close()
+if size[0] < 350:
+    print('Error: width must be at least 350.')
+if size[1] < 40:
+    print('Error: height must be at least 40.')
+tnum = int((size[1] - 22.49) / 15)
 
 lemmas = {}
 
@@ -68,7 +83,7 @@ while not done:
         webpage = BeautifulSoup(get(new_url).content, 'html.parser')
 
 tk = Tk()
-c = Canvas(tk, width = 1550, height = 950)
+c = Canvas(tk, width = size[0], height = size[1])
 c.pack()
 
 
@@ -96,7 +111,7 @@ while n >= 1:
 pnu = 1
 while sl[pnu][0] != 'English':
     pnu += 1
-proportion = sl[1][1]/1250
+proportion = sl[1][1]/(size[0] - 300)
 
 nativespeakers = {}
 
@@ -135,7 +150,7 @@ while t:
 nativefile.close()
 
 j = 1
-c.create_line(40, 0, 40, 60.5*15)
+c.create_line(40, 0, 40, (tnum + .5)*15)
 for a in sl:
     if a[1] >= min_words and a[1] <= max_words and j < len(sl):
         c.create_text(40, (j+.25)*15, anchor='e', text = str(j) + ' ')
@@ -144,16 +159,16 @@ for a in sl:
             c.create_rectangle(40, (j+.25)*15, 40 + (nativespeakers[a[0]] * sl[pnu][1] / nativespeakers['English'])/proportion, (j+.5)*15, fill = 'orange', outline = 'orange')
         c.create_text(40 + a[1]/proportion, (j+.25)*15, text = ' '+a[0], anchor = W)
         j += 1
-    if j < len(sl) - 1 and sl[j][1] == sl[j+1][1] and j < 60: # Language below has same number
+    if j < len(sl) - 1 and sl[j][1] == sl[j+1][1] and j < tnum: # Language below has same number
         c.create_rectangle(40, (j+.5)*15, 40 + sl[j][1]/proportion, (j+1) * 15, fill='black')
-    if j > 60:
+    if j > tnum:
         break
 #lines
 z = 10**math.floor(math.log10(sl[1][1]))
 z1 = z
 while z <= sl[1][1]:
-    c.create_line(40+z/proportion, 0, 40+z/proportion, 60.5*15)
-    c.create_text(40+z/proportion, 60.5*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
+    c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + .5)*15)
+    c.create_text(40+z/proportion, (tnum + .5)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
     z += z1
 tk.update()
 
@@ -200,8 +215,8 @@ def scrollUp(event):
     if j > 1:
         j -= 1
     jtemp = j
-    m = 60 + j
-    proportion = sl[j][1]/1250
+    m = tnum + j
+    proportion = sl[j][1]/(size[0] - 300)
     while jtemp < m:
         if sl[jtemp][1] >= min_words and sl[jtemp][1] <= max_words and jtemp < len(sl):
             c.create_text(40, (jtemp-j+1.25)*15, anchor='e', text = str(jtemp) + ' ')
@@ -212,24 +227,24 @@ def scrollUp(event):
         if jtemp < len(sl) - 1 and sl[jtemp][1] == sl[jtemp+1][1] and jtemp < m - 1:
             c.create_rectangle(40, (jtemp-j+1.5)*15, 40 + sl[jtemp][1]/proportion, (jtemp-j+2) * 15, fill='black')
         jtemp += 1
-    j = m - 60
+    j = m - tnum
     z = 10**math.floor(math.log10(sl[j][1]))
     z1 = z
-    c.create_line(40, 0, 40, 60.5*15)
+    c.create_line(40, 0, 40, (tnum + .5)*15)
     while z <= sl[j][1]:
-        c.create_line(40+z/proportion, 0, 40+z/proportion, 60.5*15)
-        c.create_text(40+z/proportion, 60.5*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
+        c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + .5)*15)
+        c.create_text(40+z/proportion, (tnum + .5)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
         z += z1
     tk.update()
 
 def scrollDown(event):
     global j
     c.delete('all')
-    if j < len(sl) - 60:
+    if j < len(sl) - tnum:
         j += 1
     jtemp = j
-    m = 60 + j
-    proportion = sl[j][1]/1250
+    m = tnum + j
+    proportion = sl[j][1]/(size[0] - 300)
     while jtemp < m:
         if sl[jtemp][1] >= min_words and sl[jtemp][1] <= max_words and jtemp < len(sl):
             c.create_text(40, (jtemp-j+1.25)*15, anchor='e', text = str(jtemp) + ' ')
@@ -240,13 +255,13 @@ def scrollDown(event):
         if jtemp < len(sl) - 1 and sl[jtemp][1] == sl[jtemp+1][1] and jtemp < m - 1:
             c.create_rectangle(40, (jtemp-j+1.5)*15, 40 + sl[jtemp][1]/proportion, (jtemp-j+2) * 15, fill='black')
         jtemp += 1
-    j = m - 60
+    j = m - tnum
     z = 10**math.floor(math.log10(sl[j][1]))
     z1 = z
-    c.create_line(40, 0, 40, 60.5*15)
+    c.create_line(40, 0, 40, (tnum + .5)*15)
     while z <= sl[j][1]:
-        c.create_line(40+z/proportion, 0, 40+z/proportion, 60.5*15)
-        c.create_text(40+z/proportion, 60.5*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
+        c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + .5)*15)
+        c.create_text(40+z/proportion, (tnum + .5)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
         z += z1
     tk.update()
 
