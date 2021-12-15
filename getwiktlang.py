@@ -16,7 +16,7 @@ if size[0] < 350:
     print('Error: width must be at least 350.')
 if size[1] < 40:
     print('Error: height must be at least 40.')
-tnum = int((size[1] - 22.49) / 15)
+tnum = int((size[1] - 30) / 15)
 
 lemmas = {}
 
@@ -150,7 +150,7 @@ while t:
 nativefile.close()
 
 j = 1
-c.create_line(40, 0, 40, (tnum + .5)*15)
+c.create_line(40, 0, 40, (tnum + 1)*15)
 for a in sl:
     if a[1] >= min_words and a[1] <= max_words and j < len(sl):
         c.create_text(40, (j+.25)*15, anchor='e', text = str(j) + ' ')
@@ -167,8 +167,8 @@ for a in sl:
 z = 10**math.floor(math.log10(sl[1][1]))
 z1 = z
 while z <= sl[1][1]:
-    c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + .5)*15)
-    c.create_text(40+z/proportion, (tnum + .5)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
+    c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + 1)*15)
+    c.create_text(40+z/proportion, (tnum + 1)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
     z += z1
 tk.update()
 
@@ -230,10 +230,10 @@ def scrollUp(event):
     j = m - tnum
     z = 10**math.floor(math.log10(sl[j][1]))
     z1 = z
-    c.create_line(40, 0, 40, (tnum + .5)*15)
+    c.create_line(40, 0, 40, (tnum + 1)*15)
     while z <= sl[j][1]:
-        c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + .5)*15)
-        c.create_text(40+z/proportion, (tnum + .5)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
+        c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + 1)*15)
+        c.create_text(40+z/proportion, (tnum + 1)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
         z += z1
     tk.update()
 
@@ -258,10 +258,10 @@ def scrollDown(event):
     j = m - tnum
     z = 10**math.floor(math.log10(sl[j][1]))
     z1 = z
-    c.create_line(40, 0, 40, (tnum + .5)*15)
+    c.create_line(40, 0, 40, (tnum + 1)*15)
     while z <= sl[j][1]:
-        c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + .5)*15)
-        c.create_text(40+z/proportion, (tnum + .5)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
+        c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + 1)*15)
+        c.create_text(40+z/proportion, (tnum + 1)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
         z += z1
     tk.update()
 
