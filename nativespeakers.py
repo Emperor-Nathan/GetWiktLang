@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 from requests import get
+import csv
 
 langlist = []
 
@@ -30,7 +31,9 @@ while t:
             else:
                 rr += t
 
-langfile = open('nativespeakers.txt', 'w')
+langfile = open('nativespeakers.csv', 'w')
+ritari = csv.writer(langfile, delimiter = ',')
+ritari.writerow(['Language', 'Native speakers'])
 m = 0
 print('Total:', len(langlist))
 for a in langlist:
@@ -136,5 +139,5 @@ for a in langlist:
             c += e
         else:
             c += '&#' + str(ord(e)) + ';'
-    langfile.write(c + '\t' + strn + '\n')
+    ritari.writerow([c, strn])
 langfile.close()

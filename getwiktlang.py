@@ -115,38 +115,27 @@ proportion = sl[1][1]/(size[0] - 300)
 
 nativespeakers = {}
 
-nativefile = open('nativespeakers.txt', 'r')
-t = '*'
-la = ''
-nu = ''
-mode = 1
-rr = ''
-while t:
-    t = nativefile.read(1)
-    if t == '\t':
-        mode = 2
-    elif t == '\n':
-        nativespeakers[la] = int(nu)
-        mode = 1
-        nu = ''
-        la = ''
-    elif t == '&':
-        mode = 3
-    else:
-        if mode == 1:
-            la += t
+nativefile = open('nativespeakers.csv', 'r')
+nsreader = csv.reader(nativefile, delimiter = ',')
+for a in nsreader:
+    if a[0].lower() == 'language':
+        continue
+    s = ''
+    r = ''
+    mode = 1
+    for b in a[0]:
+        if b == '&':
+            mode = 2
+        elif b == '#' and mode == 2:
+            r = ''
+        elif b == ';' and mode == 2:
+            s += chr(int(r))
+            mode = 1
         elif mode == 2:
-            nu += t
-        elif mode == 3:
-            if t == '#':
-                rr = ''
-            elif t == ';':
-                la += chr(int(rr))
-                rr = ''
-                mode = 1
-            else:
-                rr += t
-                
+            r += b
+        else:
+            s += b
+    nativespeakers[s] = int(a[1])
 nativefile.close()
 
 j = 1
