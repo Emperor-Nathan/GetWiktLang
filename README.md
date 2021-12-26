@@ -11,6 +11,6 @@ Required dependencies:
 The supplementary file nativespeakers.py generates nativespeakers.csv, the list of languages by number of speakers.
 
 Additional functions:
-- quickList(): Outputs a list of the languages listed in quicklist.txt by the difference between the actual and ideal number of lemmas. Positive values indicate over-representation, negative values indicate under-representation. Feel free to edit quicklist.txt to include your own languages; make sure to include a newline at the end of the list. If you are using IDLE, then you will need to use HTML code for non-ASCII characters; only decimal numeric references are supported.
+- quickList(): Outputs a list of the languages listed in quicklist.txt by the difference between the actual and ideal number of lemmas. Positive values indicate over-representation, negative values indicate under-representation. Feel free to edit quicklist.txt to include your own languages. If you are using IDLE, then you will need to use HTML code for non-ASCII characters; only decimal numeric references are supported.
 - createList() outputs a list of all languages into the file all.txt, used by nativespeakers.py.
 - createMap(): Coming in a future update.

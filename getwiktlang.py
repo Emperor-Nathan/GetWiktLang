@@ -266,31 +266,28 @@ except IndexError:
 def quickList():
     ql = []
     ql_file = open('quicklist.txt')
-    t = '*'
-    la = ''
-    mode = 1
-    rr = ''
-    while t:
-        t = ql_file.read(1)
-        if t == '\n':
-            ql.append(la)
-            mode = 1
-            nu = ''
-            la = ''
-        elif t == '&':
-            mode = 2
-        else:
-            if mode == 1:
-                la += t
-            elif mode == 2:
-                if t == '#':
-                    rr = ''
-                elif t == ';':
-                    la += chr(int(rr))
-                    rr = ''
-                    mode = 1
-                else:
-                    rr += t
+    lines = ql_file.readlines()
+    for a in lines:
+        mode = 1
+        la = ''
+        rr = ''
+        for t in a:
+            if t == '&':
+                mode = 2
+            else:
+                if mode == 1:
+                    if t != '\n':
+                        la += t
+                elif mode == 2:
+                    if t == '#':
+                        rr = ''
+                    elif t == ';':
+                        la += chr(int(rr))
+                        rr = ''
+                        mode = 1
+                    else:
+                        rr += t
+        ql.append(la)
     ql_file.close()
     fl = []
     for a in ql:
