@@ -291,6 +291,8 @@ def quickList():
     ql_file.close()
     fl = []
     for a in ql:
+        if len(a) == 0:
+            continue
         n = 0
         while n < len(sl):
             if sl[n][0] == a:
