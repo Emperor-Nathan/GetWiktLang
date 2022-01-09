@@ -138,30 +138,32 @@ for a in nsreader:
     nativespeakers[s] = int(a[1])
 nativefile.close()
 
-j = 1
-c.create_line(40, 0, 40, (tnum + 1)*15)
-for a in sl:
-    if a[1] >= min_words and a[1] <= max_words and j < len(sl):
-        c.create_text(40, (j+.25)*15, anchor='e', text = str(j) + ' ')
-        c.create_rectangle(40, j * 15, 40 + a[1]/proportion, (j+.25)*15, fill='black')
-        if a[0] in nativespeakers:
-            c.create_rectangle(40, (j+.25)*15, 40 + (nativespeakers[a[0]] * sl[pnu][1] / nativespeakers['English'])/proportion, (j+.5)*15, fill = 'orange', outline = 'orange')
-        c.create_text(40 + a[1]/proportion, (j+.25)*15, text = ' '+a[0], anchor = W)
-        j += 1
-    if j < len(sl) - 1 and sl[j][1] == sl[j+1][1] and j < tnum: # Language below has same number
-        c.create_rectangle(40, (j+.5)*15, 40 + sl[j][1]/proportion, (j+1) * 15, fill='black')
-    if j > tnum:
-        break
-#lines
-z = 10**math.floor(math.log10(sl[1][1]))
-z1 = z
-while z <= sl[1][1]:
-    c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + 1)*15)
-    c.create_text(40+z/proportion, (tnum + 1)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
-    z += z1
-tk.update()
+def drawWindow(tk, c, j):
+    oj = j
+    c.create_line(40, 0, 40, (tnum + 1)*15)
+    for a in sl:
+        if a[1] >= min_words and a[1] <= max_words and j < len(sl):
+            c.create_text(40, (j+.25)*15, anchor='e', text = str(j) + ' ')
+            c.create_rectangle(40, j * 15, 40 + a[1]/proportion, (j+.25)*15, fill='black')
+            if a[0] in nativespeakers:
+                c.create_rectangle(40, (j+.25)*15, 40 + (nativespeakers[a[0]] * sl[pnu][1] / nativespeakers['English'])/proportion, (j+.5)*15, fill = 'orange', outline = 'orange')
+            c.create_text(40 + a[1]/proportion, (j+.25)*15, text = ' '+a[0], anchor = W)
+            j += 1
+        if j < len(sl) - 1 and sl[j][1] == sl[j+1][1] and j < tnum: # Language below has same number
+            c.create_rectangle(40, (j+.5)*15, 40 + sl[j][1]/proportion, (j+1) * 15, fill='black')
+        if j > tnum:
+            break
+    #lines
+    z = 10**math.floor(math.log10(sl[1][1]))
+    z1 = z
+    while z <= sl[1][1]:
+        c.create_line(40+z/proportion, 0, 40+z/proportion, (tnum + 1)*15)
+        c.create_text(40+z/proportion, (tnum + 1)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
+        z += z1
+    tk.update()
+    return oj
 
-j = 1
+j = drawWindow(tk, c, 1)
 
 def sort(a):
     n = len(a)
@@ -226,6 +228,7 @@ def scrollUp(event):
         z += z1
     tk.update()
 
+
 def scrollDown(event):
     global j
     c.delete('all')
@@ -253,6 +256,14 @@ def scrollDown(event):
         c.create_text(40+z/proportion, (tnum + 1)*15, anchor='n', text=str(int(z/z1))+'e'+str(int(math.log10(z))))
         z += z1
     tk.update()
+
+"""
+def scrollDown(event):
+    global j
+    c.delete('all')
+    if j < len(sl) - tnum:
+        j = drawWindow(tk, c, j + 1)
+"""
 
 c.bind_all('<KeyPress-Down>',scrollDown)
 c.bind_all('<KeyPress-Up>',scrollUp)
