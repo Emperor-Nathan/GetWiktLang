@@ -228,7 +228,6 @@ def scrollUp(event):
         z += z1
     tk.update()
 
-
 def scrollDown(event):
     global j
     c.delete('all')
@@ -338,6 +337,52 @@ def quickList():
             u = ' ' + u
         print(a[0], u, sep='\t')
 
+def byFamily():
+    lbf = {}
+    familyfile = open('langfamilies.csv', 'r')
+    nsreader = csv.reader(familyfile, delimiter = ',')
+    for a in nsreader:
+        if a[0].lower() == 'language':
+            continue
+        s = ''
+        r = ''
+        mode = 1
+        for b in a[0]:
+            if b == '&':
+                mode = 2
+            elif b == '#' and mode == 2:
+                r = ''
+            elif b == ';' and mode == 2:
+                s += chr(int(r))
+                mode = 1
+            elif mode == 2:
+                r += b
+            else:
+                s += b
+        lbf[s] = a[1]
+    familyfile.close()
+    families = {}
+    for a in sl:
+        if len(a[0]) == 0:
+            continue
+        try:
+            families[lbf[a[0]]] += int(a[1] - (nativespeakers[a[0]] * sl[pnu][1] /
+                                         nativespeakers['English']))
+        except KeyError:
+            try:
+                families[lbf[a[0]]] = int(a[1] - (nativespeakers[a[0]] * sl[pnu][1] /
+                                         nativespeakers['English']))
+            except KeyError:
+                pass
+    flist = []
+    for a in families:
+        flist.append([a, families[a]])
+    for a in sort(flist):
+        s = a[0]
+        while len(s) < 17:
+            s += ' '
+        print(s, a[1], sep = '\t')
+
 def createMap(overlay):
     if overlay:
         tc = langmap.map_main_overlay()
@@ -356,3 +401,5 @@ def createMap(overlay):
             #print('Key', a)
             continue
     tc[0].update()
+
+byFamily()
