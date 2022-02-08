@@ -28,7 +28,7 @@ Greek,Indo-European
 Swedish,Indo-European
 Catalan,Indo-European
 Norwegian Nynorsk,Indo-European
-Norwegian Bokmål,Indo-European
+Norwegian Bokm&#229;l,Indo-European
 Teochew,Sino-Tibetan
 Irish,Indo-European
 Esperanto,constructed
@@ -121,7 +121,7 @@ Bashkir,Turkic
 Basque,Vasconic
 Phalura,Indo-European
 Plautdietsch,Indo-European
-Volapük,constructed
+Volap&#252;k,constructed
 South Levantine Arabic,Afroasiatic
 Northern Kurdish,Indo-European
 Venetian,Indo-European
@@ -299,7 +299,7 @@ Ewe,Niger-Congo
 Sumerian,isolate
 Taos,Kiowa-Tanoan
 Oriya,Indo-European
-Võro,Uralic
+V&#245;ro,Uralic
 Tarantino,Indo-European
 Old Frisian,Indo-European
 Sambali,Austronesian
@@ -352,7 +352,7 @@ Lingala,Niger-Congo
 Aghwan,North Caucasian
 Atong (India),Sino-Tibetan
 Namuyi,Sino-Tibetan
-Franco-Provençal,Indo-European
+Franco-Proven&#231;al,Indo-European
 Baluchi,Indo-European
 Polabian,Indo-European
 Proto-Malayo-Polynesian,Austronesian
@@ -377,7 +377,7 @@ Masbatenyo,Austronesian
 Choctaw,Muskogean
 White Hmong,Hmong-Mien
 Eastern Lawa,Austroasiatic
-Lü,Kra-Dai
+L&#252;,Kra-Dai
 Khakas,Turkic
 Iu Mien,Hmong-Mien
 Plains Cree,Algic
@@ -394,14 +394,14 @@ Old Czech,Indo-European
 Old Japanese,Japonic
 Even,Tungusic
 Bavarian,Indo-European
-Mòcheno,Indo-European
+M&#242;cheno,Indo-European
 Lezgi,North Caucasian
 Proto-Uralic,Uralic
 Aklanon,Austronesian
 Zou,Sino-Tibetan
 Tongan,Austronesian
 Jamaican Creole,creole or pidgin
-ǃXóõ,Tuu
+&#451;X&#243;&#245;,Tuu
 Hadza,isolate
 Yurok,Algic
 Rukai,Austronesian
@@ -433,7 +433,7 @@ Abinomn,isolate
 Nivkh,isolate
 Yagara,Pama-Nyungan
 Antillean Creole,creole or pidgin
-Guaraní,Tupian
+Guaran&#237;,Tupian
 West Flemish,Indo-European
 Elfdalian,Indo-European
 Old Tupi,Tupian
@@ -466,7 +466,7 @@ Kanakanabu,Austronesian
 Eastern Arrernte,Pama-Nyungan
 Proto-Algonquian,Algic
 Thao,Austronesian
-Yámana,isolate
+Y&#225;mana,isolate
 Wiradhuri,Pama-Nyungan
 Dibabawon Manobo,Austronesian
 Proto-Austronesian,Austronesian
@@ -589,7 +589,7 @@ Zoogocho Zapotec,Oto-Manguean
 Mang,Austroasiatic
 Norn,Indo-European
 Teposcolula Mixtec,Oto-Manguean
-Yosondúa Mixtec,Oto-Manguean
+Yosond&#250;a Mixtec,Oto-Manguean
 Bouyei,Kra-Dai
 Northern Puebla Nahuatl,Uto-Aztecan
 Southwestern Fars,Indo-European
@@ -600,11 +600,11 @@ Mwani,Niger-Congo
 Old Turkic,Turkic
 Tiruray,Austronesian
 Torres Strait Creole,creole or pidgin
-Tai Nüa,Kra-Dai
+Tai N&#252;a,Kra-Dai
 Slavomolisano,Indo-European
 Martuthunira,Pama-Nyungan
 Old Nubian,Nilo-Saharan
-Zacatlán-Ahuacatlán-Tepetzintla Nahuatl,Uto-Aztecan
+Zacatl&#225;n-Ahuacatl&#225;n-Tepetzintla Nahuatl,Uto-Aztecan
 Kamba,Niger-Congo
 Kaqchikel,Mayan
 Kott,Dene-Yeniseian
@@ -636,7 +636,7 @@ Klallam,Salishan
 Pnar,Austroasiatic
 Rotokas,North Bougainville
 Etruscan,Tyrsenian
-Rayón Zoque,Mixe-Zoquean
+Ray&#243;n Zoque,Mixe-Zoquean
 Wolio,Austronesian
 Bats,North Caucasian
 Proto-Norse,Indo-European
@@ -645,7 +645,7 @@ Kalo Finnish Romani,Indo-European
 Northern Catanduanes Bicolano,Austronesian
 Udihe,Tungusic
 Assyrian Neo-Aramaic,Afroasiatic
-Jamamadí,Arauan
+Jamamad&#237;,Arauan
 Kolami,Dravidian
 Morelos Nahuatl,Uto-Aztecan
 Tataltepec Chatino,Oto-Manguean
@@ -730,14 +730,14 @@ Lishana Deni,Afroasiatic
 Old Hindi,Indo-European
 Talysh,Indo-European
 Zacatepec Chatino,Oto-Manguean
-ǃKung,Kx'a
+&#451;Kung,Kx'a
 Faliscan,Indo-European
 Mandaic,Afroasiatic
 Taroko,Austronesian
 Western Pwo,Sino-Tibetan
-Caló,mixed
+Cal&#243;,mixed
 Central Melanau,Austronesian
-Magdalena Peñasco Mixtec,Oto-Manguean
+Magdalena Pe&#241;asco Mixtec,Oto-Manguean
 Mandinka,Niger-Congo
 Pangasinan,Austronesian
 Shabo,Nilo-Saharan
@@ -751,7 +751,7 @@ Ibaloi,Austronesian
 Luo,Nilo-Saharan
 Nigerian Pidgin,creole or pidgin
 Umbundu,Niger-Congo
-Ajië,Austronesian
+Aji&#235;,Austronesian
 Ibatan,Austronesian
 Mohawk,Iroquoian
 Nganasan,Uralic
@@ -774,19 +774,19 @@ Welsh Romani,Indo-European
 Chayuco Mixtec,Oto-Manguean
 East Central German,Indo-European
 Saisiyat,Austronesian
-San Juan Guelavía Zapotec,Oto-Manguean
+San Juan Guelav&#237;a Zapotec,Oto-Manguean
 Cree,Algic
 Nogai,Turkic
 Nyunga,Pama-Nyungan
 Proto-Philippine,Austronesian
-Borôro,Macro-Jê
+Bor&#244;ro,Macro-J&#234;
 Chukchi,Chukotko-Kamchatkan
 Karo Batak,Austronesian
-Maricopa,Yuman-Cochimí
+Maricopa,Yuman-Cochim&#237;
 Matigsalug Manobo,Austronesian
 Mopan Maya,Mayan
 Talossan,constructed
-Tezoatlán Mixtec,Oto-Manguean
+Tezoatl&#225;n Mixtec,Oto-Manguean
 Tuvaluan,Austronesian
 Balantak,Austronesian
 Champenois,Indo-European
@@ -831,7 +831,7 @@ Arikara,Caddoan
 Baha,Kra-Dai
 Carian,Indo-European
 Copala Triqui,Oto-Manguean
-Francisco León Zoque,Mixe-Zoquean
+Francisco Le&#243;n Zoque,Mixe-Zoquean
 Isthmus Mixe,Mixe-Zoquean
 Ivatan,Austronesian
 Jakaltek,Mayan
@@ -843,14 +843,14 @@ Northern Yukaghir,Yukaghir
 Pochutec,Uto-Aztecan
 Sholaga,Dravidian
 Southern Kurdish,Indo-European
-Chiquihuitlán Mazatec,Oto-Manguean
+Chiquihuitl&#225;n Mazatec,Oto-Manguean
 Gutnish,Indo-European
 Kagayanen,Austronesian
 Montana Salish,Salishan
 Paiwan,Austronesian
 Proto-Mayan,Mayan
 Tambora,Papuan
-Tübatulabal,Uto-Aztecan
+T&#252;batulabal,Uto-Aztecan
 Bella Coola,Salishan
 Bishnupriya Manipuri,Indo-European
 Bolinao,Austronesian
@@ -902,7 +902,7 @@ Columbia-Wenatchi,Salishan
 Keley-I Kallahan,Austronesian
 Koyraboro Senni,Nilo-Saharan
 Luganda,Niger-Congo
-Láadan,constructed
+L&#225;adan,constructed
 Seneca,Iroquoian
 Simalungun Batak,Austronesian
 Aquitanian,Vasconic
@@ -912,18 +912,18 @@ Dumbea,Austronesian
 Khoekhoe,Khoe-Kwadi
 Kven,Uralic
 Ngiyambaa,Pama-Nyungan
-Paipai,Yuman-Cochimí
+Paipai,Yuman-Cochim&#237;
 Sango,creole or pidgin
 Soninke,Niger-Congo
 Wanyi,Garawan
 Belizean Creole,creole or pidgin
-Kaingang,Macro-Jê
+Kaingang,Macro-J&#234;
 Khamti,Kra-Dai
 Lacandon,Mayan
 Lozi,Niger-Congo
 Nyishi,Sino-Tibetan
 Old Median,Indo-European
-Paraguayan Guaraní,Tupian
+Paraguayan Guaran&#237;,Tupian
 Pawnee,Caddoan
 Proto-Tai,Kra-Dai
 Wathaurong,Pama-Nyungan
@@ -949,7 +949,7 @@ Jarawa,Ongan
 Khiamniungan Naga,Sino-Tibetan
 Laki,Indo-European
 Luhya,Niger-Congo
-Nivaclé,Mataco-Guaicuru
+Nivacl&#233;,Mataco-Guaicuru
 Proto-Uto-Aztecan,Uto-Aztecan
 Torwali,Indo-European
 Urum,Turkic
@@ -978,7 +978,7 @@ Tehuelche,Chonan
 Umbrian,Indo-European
 Upper Chehalis,Salishan
 Betawi,creole or pidgin
-Michoacán Nahuatl,Uto-Aztecan
+Michoac&#225;n Nahuatl,Uto-Aztecan
 Thompson,Salishan
 Thracian,Indo-European
 Transylvanian Saxon,Indo-European
@@ -992,7 +992,7 @@ Domari,Indo-European
 Indo-Portuguese,creole or pidgin
 Middle Bengali,Indo-European
 Pela,Sino-Tibetan
-San Martín Itunyoso Triqui,Oto-Manguean
+San Mart&#237;n Itunyoso Triqui,Oto-Manguean
 Sasak,Austronesian
 Taivoan,Austronesian
 Tashelhit,Afroasiatic
@@ -1000,9 +1000,9 @@ Weyewa,Austronesian
 Written Oirat,Mongolic
 Bezhta,North Caucasian
 Gofa,Afroasiatic
-Kumeyaay,Yuman-Cochimí
+Kumeyaay,Yuman-Cochim&#237;
 Lepcha,Sino-Tibetan
-Meänkieli,Uralic
+Me&#228;nkieli,Uralic
 Tat,Indo-European
 Tsat,Austronesian
 Tunisian Arabic,Afroasiatic
@@ -1016,7 +1016,7 @@ Kamta,Indo-European
 Krisa,Sko
 Michif,mixed
 Yaqui,Uto-Aztecan
-ǁAni,Khoe-Kwadi
+&#449;Ani,Khoe-Kwadi
 Adnyamathanha,Pama-Nyungan
 Ambonese Malay,creole or pidgin
 Gullah,creole or pidgin
@@ -1032,7 +1032,7 @@ Aiton,Kra-Dai
 Aukan,creole or pidgin
 Dena'ina,Dene-Yeniseian
 Penobscot,Algic
-Pirahã,Muran
+Pirah&#227;,Muran
 Proto-Chamic,Austronesian
 Sikkimese,Sino-Tibetan
 Tarao,Sino-Tibetan
@@ -1052,7 +1052,7 @@ Thavung,Austroasiatic
 Adangme,Niger-Congo
 Creek,Muskogean
 Gondi,Dravidian
-Guajajára,Tupian
+Guajaj&#225;ra,Tupian
 Haida,isolate
 Nobiin,Nilo-Saharan
 Primitive Irish,Indo-European
@@ -1073,7 +1073,7 @@ Proto-Trans-New Guinea,Trans-New Guinea
 Tunica,isolate
 Tzeltal,Mayan
 Western Neo-Aramaic,Afroasiatic
-Apalaí,Cariban
+Apala&#237;,Cariban
 Assan,Dene-Yeniseian
 Ixil,Mayan
 Jurchen,Tungusic
@@ -1089,7 +1089,7 @@ Algerian Arabic,Afroasiatic
 Angloromani,creole or pidgin
 Brahui,Dravidian
 Buhid,Austronesian
-Cupeño,Uto-Aztecan
+Cupe&#241;o,Uto-Aztecan
 Eastern Pwo,Sino-Tibetan
 Kilivila,Austronesian
 Kodava,Dravidian
@@ -1109,7 +1109,7 @@ Ashe,Niger-Congo
 Bariai,Austronesian
 Eastern Cham,Austronesian
 Gottscheerish,Indo-European
-Kayapó,Macro-Jê
+Kayap&#243;,Macro-J&#234;
 Klamath-Modoc,Plateau Penutian
 Lingao,Kra-Dai
 Old Welsh,Indo-European
@@ -1128,7 +1128,7 @@ Butuanon,Austronesian
 Chachi,Barbacoan
 Chol,Mayan
 Coast Miwok,Yok-Utian
-Copainalá Zoque,Mixe-Zoquean
+Copainal&#225; Zoque,Mixe-Zoquean
 Curripaco,Arawakan
 Galibi Carib,Cariban
 Hinukh,North Caucasian
@@ -1141,12 +1141,12 @@ Potawatomi,Algic
 Proto-Nuristani,Indo-European
 Proto-Tsezian,North Caucasian
 Tagal Murut,Austronesian
-Tapayuna,Macro-Jê
-Xicotepec de Juárez Totonac,Totonacan
+Tapayuna,Macro-J&#234;
+Xicotepec de Ju&#225;rez Totonac,Totonacan
 Ancient Macedonian,Indo-European
 Arawak,Arawakan
 Catawba,Siouan-Catawban
-Coatlán Mixe,Mixe-Zoquean
+Coatl&#225;n Mixe,Mixe-Zoquean
 Ditidaht,Wakashan
 German Sign Language,German Sign Languages
 Gojri,Indo-European
@@ -1165,11 +1165,11 @@ Aari,Afroasiatic
 Assiniboine,Siouan-Catawban
 Balkan Romani,Indo-European
 Baure,Arawakan
-Canela,Macro-Jê
+Canela,Macro-J&#234;
 Duala,Niger-Congo
 Ga,Niger-Congo
 Glosa,constructed
-Gourmanchéma,Niger-Congo
+Gourmanch&#233;ma,Niger-Congo
 Itawit,Austronesian
 Khasi,Austroasiatic
 Kwanyama,Niger-Congo
@@ -1208,9 +1208,9 @@ Western Highland Chatino,Oto-Manguean
 Atikamekw,Algic
 Broome Pearling Lugger Pidgin,creole or pidgin
 Carolinian,Austronesian
-Cochimi,Yuman-Cochimí
+Cochimi,Yuman-Cochim&#237;
 Dhuwal,Pama-Nyungan
-Gabrielino-Fernandeño,Uto-Aztecan
+Gabrielino-Fernande&#241;o,Uto-Aztecan
 Iranun,Austronesian
 Jutish,Indo-European
 Kamkata-viri,Indo-European
@@ -1222,7 +1222,7 @@ Proto-Zapotecan,Oto-Manguean
 Sarcee,Dene-Yeniseian
 South Marquesan,Austronesian
 Southern Sierra Miwok,Yok-Utian
-Tày,Kra-Dai
+T&#224;y,Kra-Dai
 Vlax Romani,Indo-European
 Andalusian Arabic,Afroasiatic
 Berbice Creole Dutch,creole or pidgin
@@ -1231,7 +1231,7 @@ Caribbean Hindustani,Indo-European
 Comox,Salishan
 Fataluku,Timor-Alor-Pantar
 Iwaidja,Iwaidjan
-Karajá,Macro-Jê
+Karaj&#225;,Macro-J&#234;
 Northern Khmer,Austroasiatic
 Northern Qiang,Sino-Tibetan
 Oluta Popoluca,Mixe-Zoquean
@@ -1247,7 +1247,7 @@ Southern Kam,Kra-Dai
 Sursurunga,Austronesian
 Tachawit,Afroasiatic
 Tangam,Sino-Tibetan
-Taíno,Arawakan
+Ta&#237;no,Arawakan
 Woods Cree,Algic
 Afrihili,constructed
 Anuta,Austronesian
@@ -1260,7 +1260,7 @@ Mandalorian,constructed
 Manggarai,Austronesian
 Massachusett,Algic
 Miami,Algic
-Paumarí,Arauan
+Paumar&#237;,Arauan
 Philistine,unclassified
 Proto-Mixe-Zoque,Mixe-Zoquean
 Proto-Nyulnyulan,Nyulnyulan
@@ -1288,7 +1288,7 @@ Kosraean,Austronesian
 Lele (Guinea),Niger-Congo
 Maaka,Afroasiatic
 Mehri,Afroasiatic
-Michoacán Mazahua,Oto-Manguean
+Michoac&#225;n Mazahua,Oto-Manguean
 Murrinh-Patha,Daly
 Najdi Arabic,Afroasiatic
 Neo,constructed
@@ -1319,7 +1319,7 @@ Car Nicobarese,Austroasiatic
 East Futuna,Austronesian
 Eastern Magar,Sino-Tibetan
 Forest Enets,Uralic
-Fulniô,isolate
+Fulni&#244;,isolate
 Hanunoo,Austronesian
 Hoyahoya,Trans-New Guinea
 Huarijio,Uto-Aztecan
@@ -1336,13 +1336,13 @@ Palenquero,creole or pidgin
 Proto-Central-Eastern Malayo-Polynesian,Austronesian
 Proto-Tupian,Tupian
 Selkup,Uralic
-Sinacantán,Xincan
+Sinacant&#225;n,Xincan
 Tangkhul Naga,Sino-Tibetan
 Tavoyan,Sino-Tibetan
 Tlahuica,Oto-Manguean
 Toda,Dravidian
 Tuamotuan,Austronesian
-Xârâcùù,Austronesian
+X&#226;r&#226;c&#249;&#249;,Austronesian
 A-Hmao,Hmong-Mien
 Adja,Niger-Congo
 Ai-Cham,Kra-Dai
@@ -1350,7 +1350,7 @@ Aka-Bea,Great Andamanese
 Anjam,Trans-New Guinea
 Ankave,Trans-New Guinea
 Anyi,Niger-Congo
-Apinayé,Macro-Jê
+Apinay&#233;,Macro-J&#234;
 Awabakal,Pama-Nyungan
 Bintulu,Austronesian
 Dimasa,Sino-Tibetan
@@ -1361,12 +1361,12 @@ Fyam,Niger-Congo
 Ghotuo,Niger-Congo
 Isubu,Niger-Congo
 Kapingamarangi,Austronesian
-Khün,Kra-Dai
+Kh&#252;n,Kra-Dai
 Kickapoo,Algic
 Kuna,Macro-Chibchan
 Mandar,Austronesian
 Mauwake,Trans-New Guinea
-Maxakalí,Macro-Jê
+Maxakal&#237;,Macro-J&#234;
 Moken,Austronesian
 Mundolinco,constructed
 Nootka,Wakashan
@@ -1379,11 +1379,11 @@ Rungus,Austronesian
 Rutul,North Caucasian
 Singpho,Sino-Tibetan
 Situ,Sino-Tibetan
-Suyá,Macro-Jê
+Suy&#225;,Macro-J&#234;
 Timugon Murut,Austronesian
 Tiwi,isolate
 Varhadi,Indo-European
-Vurës,Austronesian
+Vur&#235;s,Austronesian
 West Uvean,Austronesian
 Yao,Niger-Congo
 Aghul,North Caucasian
@@ -1402,10 +1402,10 @@ French Sign Language,French Sign Languages
 Futuna-Aniwa,Austronesian
 Gallurese,Indo-European
 Hanga Hundi,Sepik
-Hän,Dene-Yeniseian
+H&#228;n,Dene-Yeniseian
 Inabaknon,Austronesian
 Itene,Chapacuran
-Karipúna Creole French,creole or pidgin
+Karip&#250;na Creole French,creole or pidgin
 Knaanic,Indo-European
 Kulon-Pazeh,Austronesian
 Kurukh,Dravidian
@@ -1426,12 +1426,12 @@ Sheshi Kham,Sino-Tibetan
 Simbari,Trans-New Guinea
 Sogdian,Indo-European
 Southeast Pashayi,Indo-European
-Sãotomense,creole or pidgin
-Tanimuca-Retuarã,Tucanoan
+S&#227;otomense,creole or pidgin
+Tanimuca-Retuar&#227;,Tucanoan
 Tocantins Asurini,Tupian
 Uspanteco,Mayan
 Western Arrernte,Pama-Nyungan
-Xavante,Macro-Jê
+Xavante,Macro-J&#234;
 Yawuru,Nyulnyulan
 Yupiltepeque,Xincan
 Zangskari,Sino-Tibetan
@@ -1465,9 +1465,9 @@ Mamanwa,Austronesian
 Mende,Niger-Congo
 Meru,Niger-Congo
 Muna,Austronesian
-Mundurukú,Tupian
+Munduruk&#250;,Tupian
 Oneida,Iroquoian
-Pará Arára,Cariban
+Par&#225; Ar&#225;ra,Cariban
 Principense,creole or pidgin
 Proto-Oto-Manguean,Oto-Manguean
 Proto-Shughni-Yazghulami,Indo-European
@@ -1483,7 +1483,7 @@ Tabasco Chontal,Mayan
 Taushiro,unclassified
 Toraja-Sa'dan,Austronesian
 Tsimshian,Tsimshianic
-Ventureño,Chumashan
+Venture&#241;o,Chumashan
 Wageman,Arnhem
 Yankunytjatjara,Pama-Nyungan
 Zipser German,Indo-European
@@ -1497,7 +1497,7 @@ Coastal Kadazan,Austronesian
 Dhangu,Pama-Nyungan
 Fordata,Austronesian
 Huaorani,isolate
-Karitiâna,Tupian
+Kariti&#226;na,Tupian
 Kassonke,Niger-Congo
 Leti (Indonesia),Austronesian
 Malinaltepec Tlapanec,Oto-Manguean
@@ -1538,11 +1538,11 @@ Fuyug,Trans-New Guinea
 Gayo,Austronesian
 Guanche,Afroasiatic
 Hidatsa,Siouan-Catawban
-Hupdë,Nadahup
+Hupd&#235;,Nadahup
 Ida'an,Austronesian
 Jeru,Great Andamanese
-Juǀ'hoan,Kx'a
-Kamayurá,Tupian
+Ju&#448;'hoan,Kx'a
+Kamayur&#225;,Tupian
 Kelabit,Austronesian
 Kinaray-a,Austronesian
 Kotava,constructed
@@ -1551,7 +1551,7 @@ Lenakel,Austronesian
 Lisu,Sino-Tibetan
 Lusitanian,Indo-European
 Mambae,Austronesian
-Mato Grosso Arára,unclassified
+Mato Grosso Ar&#225;ra,unclassified
 Mentawai,Austronesian
 Middle Kannada,Dravidian
 Muduapa,Austronesian
@@ -1568,7 +1568,7 @@ Tambunan Dusun,Austronesian
 Tepeuxila Cuicatec,Oto-Manguean
 Tonkawa,isolate
 Tz'utujil,Mayan
-Urubú-Kaapor,Tupian
+Urub&#250;-Kaapor,Tupian
 Volga German,Indo-European
 Wancho,Sino-Tibetan
 Wari',Chapacuran
@@ -1580,7 +1580,7 @@ Akkala Sami,Uralic
 Amasi,Niger-Congo
 Ambai,Austronesian
 Angaataha,Trans-New Guinea
-Apurinã,Arawakan
+Apurin&#227;,Arawakan
 Arammba,Trans-New Guinea
 Barasana,Tucanoan
 Baruya,Trans-New Guinea
@@ -1589,33 +1589,33 @@ Biak,Austronesian
 Blin,Afroasiatic
 Bughotu,Austronesian
 Bwatoo,Austronesian
-Cemuhî,Austronesian
+Cemuh&#238;,Austronesian
 Chilcotin,Dene-Yeniseian
 Choapan Zapotec,Oto-Manguean
 Chuj,Mayan
-Cocopa,Yuman-Cochimí
+Cocopa,Yuman-Cochim&#237;
 Cypriot Arabic,Afroasiatic
 Deccani,Indo-European
-Dení,Arauan
+Den&#237;,Arauan
 Dibiyaso,Trans-New Guinea
 Drung,Sino-Tibetan
 Eastern Tamang,Sino-Tibetan
-Estado de México Otomi,Oto-Manguean
+Estado de M&#233;xico Otomi,Oto-Manguean
 Gurjar Apabhramsa,Indo-European
-Havasupai-Walapai-Yavapai,Yuman-Cochimí
+Havasupai-Walapai-Yavapai,Yuman-Cochim&#237;
 Iatmul,Sepik
 Ibibio,Niger-Congo
 Jehai,Austroasiatic
-Kanoé,isolate
+Kano&#233;,isolate
 Kansa,Siouan-Catawban
-Kawésqar,Alacalufan
+Kaw&#233;sqar,Alacalufan
 Kaxuyana,Cariban
-Kiliwa,Yuman-Cochimí
+Kiliwa,Yuman-Cochim&#237;
 Komodo,Austronesian
 Kullu Pahari,Indo-European
 Lorrain,Indo-European
 Mag-Anchi Ayta,Austronesian
-Maléku Jaíka,Macro-Chibchan
+Mal&#233;ku Ja&#237;ka,Macro-Chibchan
 Manado Malay,unclassified
 Manam,Austronesian
 Mato,Austronesian
@@ -1641,24 +1641,24 @@ Proto-Nubian,Nilo-Saharan
 Proto-Nuclear Polynesian,Austronesian
 Puluwat,Austronesian
 Qatabanian,Afroasiatic
-Rincón Zapotec,Oto-Manguean
+Rinc&#243;n Zapotec,Oto-Manguean
 Sabu,Austronesian
 Shaozhou Tuhua,Sino-Tibetan
 Shelta,creole or pidgin
 Sika,Austronesian
-Suruí,Tupian
+Suru&#237;,Tupian
 Swedish Sign Language,sign language
 To'abaita,Austronesian
 Tsafiki,Barbacoan
 Warekena,Arawakan
 Wintu,Wintuan
-Xingú Asuriní,Tupian
-Yurumanguí,unclassified
+Xing&#250; Asurin&#237;,Tupian
+Yurumangu&#237;,unclassified
 Abui,Timor-Alor-Pantar
 Abung,Austronesian
 Ahtna,Dene-Yeniseian
 Alak,Austroasiatic
-Aloápam Zapotec,Oto-Manguean
+Alo&#225;pam Zapotec,Oto-Manguean
 Alungul,Pama-Nyungan
 Banoni,Austronesian
 Bende,Niger-Congo
@@ -1682,8 +1682,8 @@ Hixkaryana,Cariban
 Hupa,Dene-Yeniseian
 Ili Turki,Turkic
 Indonesian Bajau,Austronesian
-Kaiwá,Tupian
-Kanamari,Harákmbut-Katukinan
+Kaiw&#225;,Tupian
+Kanamari,Har&#225;kmbut-Katukinan
 Karok,isolate
 Kassite,unclassified
 Kombio,Torricelli
@@ -1714,7 +1714,7 @@ Proto-Indo-Aryan,Indo-European
 Proto-Northeast Caucasian,North Caucasian
 Proto-Oto-Pamean,Oto-Manguean
 Proto-Saka-Wakhi,Indo-European
-Pykobjê,Macro-Jê
+Pykobj&#234;,Macro-J&#234;
 Quinault,Salishan
 Raga,Austronesian
 Safaitic,Afroasiatic
@@ -1734,7 +1734,7 @@ Urartian,Hurro-Urartian
 Varli,Indo-European
 Waskia,Trans-New Guinea
 Wawa,Niger-Congo
-Xerénte,Macro-Jê
+Xer&#233;nte,Macro-J&#234;
 Yamdena,Austronesian
 Yanyuwa,Pama-Nyungan
 Yombe,Niger-Congo
@@ -1781,7 +1781,7 @@ Bura Mabang,Nilo-Saharan
 Burarra,Arnhem
 Caac,Austronesian
 Cavere,Arawakan
-Cavineña,Pano-Tacanan
+Cavine&#241;a,Pano-Tacanan
 Central Pomo,Hokan
 Central Siberian Yupik,Eskimo-Aleut
 Chamacoco,Zamucoan
@@ -1795,7 +1795,7 @@ Dahalo,Afroasiatic
 Digo,Niger-Congo
 Dime,Afroasiatic
 Duun,Niger-Congo
-Dâw,Nadahup
+D&#226;w,Nadahup
 Eastern Bontoc,Austronesian
 Eastern Bru,Austroasiatic
 Eastern Mnong,Austroasiatic
@@ -1819,7 +1819,7 @@ Iraqw,Afroasiatic
 Japhug,Sino-Tibetan
 Jicarilla,Dene-Yeniseian
 Kadaru,Nilo-Saharan
-Kadiwéu,Mataco-Guaicuru
+Kadiw&#233;u,Mataco-Guaicuru
 Kairiru,Austronesian
 Kala Lagaw Ya,Pama-Nyungan
 Kathlamet,Chinookan
@@ -1835,10 +1835,10 @@ Kusunda,isolate
 Kuvi,Dravidian
 Lai,Sino-Tibetan
 Lamba,Niger-Congo
-Luiseño,Uto-Aztecan
+Luise&#241;o,Uto-Aztecan
 Lule,unclassified
 Makhuwa,Niger-Congo
-Malalí,unclassified
+Malal&#237;,unclassified
 Mandan,Siouan-Catawban
 Mangghuer,Mongolic
 Maranungku,Daly
@@ -1863,13 +1863,13 @@ Nukuoro,Austronesian
 Nupe,Niger-Congo
 Nyakyusa,Niger-Congo
 Nyamwezi,Niger-Congo
-Nyâlayu,Austronesian
+Ny&#226;layu,Austronesian
 Ontong Java,Austronesian
-Orejón,Tucanoan
-Ozumacín Chinantec,Oto-Manguean
+Orej&#243;n,Tucanoan
+Ozumac&#237;n Chinantec,Oto-Manguean
 Palikur,Arawakan
 Parya,Indo-European
-Pericú,unclassified
+Peric&#250;,unclassified
 Proto-Afroasiatic,Afroasiatic
 Proto-Halmahera-Cenderawasih,Austronesian
 Proto-Karen,Sino-Tibetan
@@ -1877,8 +1877,8 @@ Proto-Yeniseian,Dene-Yeniseian
 Quileute,Chimakuan
 Rembong,Austronesian
 Rennellese,Austronesian
-Réunion Creole French,creole or pidgin
-Santa María La Alta Nahuatl,Uto-Aztecan
+R&#233;union Creole French,creole or pidgin
+Santa Mar&#237;a La Alta Nahuatl,Uto-Aztecan
 Sauraseni Apabhramsa,Indo-European
 Savosavo,Papuan
 Sechura,unclassified
@@ -1888,7 +1888,7 @@ Southern East Cree,Algic
 Sumbawa,Austronesian
 Tapachultec,Mixe-Zoquean
 Taparita,Otomacoan
-Tapirapé,Tupian
+Tapirap&#233;,Tupian
 Tariana,Arawakan
 Tarpia,Austronesian
 Timote,unclassified
@@ -1933,19 +1933,19 @@ Angami,Sino-Tibetan
 Angkula,Pama-Nyungan
 Anuki,Austronesian
 Anus,Austronesian
-Apiaká,Tupian
+Apiak&#225;,Tupian
 Araki,Austronesian
 Arifama-Miniafia,Austronesian
 Arta,Austronesian
-Ashéninka Perené,Arawakan
+Ash&#233;ninka Peren&#233;,Arawakan
 Atsahuaca,Pano-Tacanan
 Atsugewi,Palaihnihan
-Attié,Niger-Congo
+Atti&#233;,Niger-Congo
 Au,Torricelli
 Auhelawa,Austronesian
 Awa-Cuaiquer,Barbacoan
 Awar,Papuan
-Awetí,Tupian
+Awet&#237;,Tupian
 Awtuw,Sepik
 Ayere,Niger-Congo
 Babine-Witsuwit'en,Dene-Yeniseian
@@ -1981,8 +1981,8 @@ Chitimacha,isolate
 Churuya,Guahiban
 Coastal Konjo,Austronesian
 Cogui,Macro-Chibchan
-Copallén,unclassified
-Coroado Puri,Macro-Jê
+Copall&#233;n,unclassified
+Coroado Puri,Macro-J&#234;
 Cosoleacaque Nahuatl,Uto-Aztecan
 Cuban Sign Language,sign language
 Daba,Afroasiatic
@@ -2016,24 +2016,24 @@ Hunnic,unclassified
 Igala,Niger-Congo
 Ikaranggal,Pama-Nyungan
 Ilongot,Austronesian
-Ineseño,Chumashan
+Inese&#241;o,Chumashan
 Iraya,Austronesian
 Iriga Bicolano,Austronesian
 Isinai,Austronesian
-Itzá,Mayan
+Itz&#225;,Mayan
 Iwam,Sepik
 Izon,Niger-Congo
-Jabutí,Macro-Jê
+Jabut&#237;,Macro-J&#234;
 Jassic,Indo-European
 Jingulu,Mirndi
-Kabiyé,Niger-Congo
+Kabiy&#233;,Niger-Congo
 Kadugli,Kadu
 Kalenjin,Nilo-Saharan
 Kamarupi Prakrit,Indo-European
 Kangri,Indo-European
 Kap,Austronesian
 Kashaya,Hokan
-Kaskihá,Mascoian
+Kaskih&#225;,Mascoian
 Kato,Dene-Yeniseian
 Kaytetye,Pama-Nyungan
 Kedang,Austronesian
@@ -2056,7 +2056,7 @@ Kumarbhag Paharia,Dravidian
 Kw'adza,Afroasiatic
 Kwaio,Austronesian
 Kwerba,Tor-Kwerba
-Kómnzo,Yam
+K&#243;mnzo,Yam
 Lama Bai,Sino-Tibetan
 Lamaholot,Austronesian
 Lhao Vo,Sino-Tibetan
@@ -2075,16 +2075,16 @@ Mara Chin,Sino-Tibetan
 Margi,Afroasiatic
 Marsian,Indo-European
 Marti Ke,Daly
-Masakará,Macro-Jê
+Masakar&#225;,Macro-J&#234;
 Mbugu,mixed
-Mbyá Guaraní,Tupian
+Mby&#225; Guaran&#237;,Tupian
 Mfumte,Niger-Congo
 Middle Gujarati,Indo-European
 Mixed Great Andamanese,Great Andamanese
 Mmani,Niger-Congo
 Mo,Austronesian
 Mobilian,creole or pidgin
-Mojave,Yuman-Cochimí
+Mojave,Yuman-Cochim&#237;
 Moloko,Afroasiatic
 Moro,Niger-Congo
 Moronene,Austronesian
@@ -2114,7 +2114,7 @@ Paite,Sino-Tibetan
 Pamosu,Trans-New Guinea
 Pamplona Atta,Austronesian
 Panare,Cariban
-Panará,Macro-Jê
+Panar&#225;,Macro-J&#234;
 Panim,Trans-New Guinea
 Panzaleo,unclassified
 Papapana,Austronesian
@@ -2127,10 +2127,10 @@ Pima Bajo,Uto-Aztecan
 Podoko,Afroasiatic
 Proto-Eastern Polynesian,Austronesian
 Proto-North Sarawak,Austronesian
-Proto-Northern Jê,Macro-Jê
+Proto-Northern J&#234;,Macro-J&#234;
 Proto-Pama-Nyungan,Pama-Nyungan
 Q'anjob'al,Mayan
-Querétaro Otomi,Oto-Manguean
+Quer&#233;taro Otomi,Oto-Manguean
 Quitemo,Chapacuran
 Rabona,unclassified
 Ramoaaina,Austronesian
@@ -2142,7 +2142,7 @@ Samo,Trans-New Guinea
 Sanaviron,unclassified
 Sangil,Austronesian
 Saniyo-Hiyewe,Sepik
-Sapará,Cariban
+Sapar&#225;,Cariban
 Sarikoli,Indo-European
 Sedang,Austroasiatic
 Sehwi,Niger-Congo
@@ -2171,17 +2171,17 @@ Tawala,Austronesian
 Teiwa,Trans-New Guinea
 Tewa,Kiowa-Tanoan
 Timucua,isolate
-Tipai,Yuman-Cochimí
+Tipai,Yuman-Cochim&#237;
 Tiri,Austronesian
 Tomini,Austronesian
 Tontemboan,Austronesian
 Totoli,Austronesian
 Tshobdun,Sino-Tibetan
-Tsimané,isolate
+Tsiman&#233;,isolate
 Tucano,Tucanoan
 Ujir,Austronesian
 Ukuriguma,Trans-New Guinea
-Umotína,Macro-Jê
+Umot&#237;na,Macro-J&#234;
 Urat,Torricelli
 Urhobo,Niger-Congo
 Wagi,Trans-New Guinea
@@ -2196,7 +2196,7 @@ Wichita,Caddoan
 Wiwa,Macro-Chibchan
 Wyandot,Iroquoian
 Yareba,Trans-New Guinea
-Yaroamë,Yanomami
+Yaroam&#235;,Yanomami
 Yazghulami,Indo-European
 Yemsa,Afroasiatic
 Yendang,Niger-Congo
@@ -2219,7 +2219,7 @@ Agarabi,Trans-New Guinea
 Aghem,Niger-Congo
 Agi,Torricelli
 Agusan Manobo,Austronesian
-Aikanã,isolate
+Aikan&#227;,isolate
 Aimele,Trans-New Guinea
 Aka-Cari,Great Andamanese
 Aka-Kede,Great Andamanese
@@ -2230,9 +2230,9 @@ Alamblak,Papuan
 Alsea,unclassified
 Alu,Austronesian
 Amal,Iwam
-Amatlán Zapotec,Oto-Manguean
+Amatl&#225;n Zapotec,Oto-Manguean
 Ambulas,Sepik
-Anauyá,Arawakan
+Anauy&#225;,Arawakan
 Aneityum,Austronesian
 Angevin,Indo-European
 Angkamuthi,Pama-Nyungan
@@ -2260,7 +2260,7 @@ Avava,Austronesian
 Avikam,Niger-Congo
 Avokaya,Nilo-Saharan
 Ayabadhu,Pama-Nyungan
-Ayomán,Jirajaran
+Ayom&#225;n,Jirajaran
 Ayoreo,Zamucoan
 Baba Malay,creole or pidgin
 Babanki,Niger-Congo
@@ -2278,7 +2278,7 @@ Bankon,Niger-Congo
 Bantik,Austronesian
 Barai,Trans-New Guinea
 Bariji,Trans-New Guinea
-Baré,Arawakan
+Bar&#233;,Arawakan
 Batui,Austronesian
 Batuley,Austronesian
 Bellari,Dravidian
@@ -2315,11 +2315,11 @@ Burun,Nilo-Saharan
 Burusu,Austronesian
 Busa,Niger-Congo
 Bwaidoka,Austronesian
-Cacán,unclassified
+Cac&#225;n,unclassified
 Cajonos Zapotec,Oto-Manguean
 Caka,Niger-Congo
 Calusa,unclassified
-Camsá,isolate
+Cams&#225;,isolate
 Carabayo,Ticuna-Yuri
 Carapana,Tucanoan
 Carijona,Cariban
@@ -2342,8 +2342,8 @@ Chuave,Trans-New Guinea
 Classical Mongolian,Mongolic
 Cocama,Tupian
 Coeur d'Alene,Salishan
-Cofán,isolate
-Colán,Catacaoan
+Cof&#225;n,isolate
+Col&#225;n,Catacaoan
 Comechingon,unclassified
 Coos,Coosan
 Culli,unclassified
@@ -2394,7 +2394,7 @@ Gabi,Pama-Nyungan
 Gadsup,Trans-New Guinea
 Gamo,Afroasiatic
 Gavak,Trans-New Guinea
-Gavião do Jiparaná,Tupian
+Gavi&#227;o do Jiparan&#225;,Tupian
 Gbagyi,Niger-Congo
 Gbari,Niger-Congo
 Geser-Gorom,Austronesian
@@ -2403,23 +2403,23 @@ Ghayavi,Austronesian
 Gidar,Afroasiatic
 Glavda,Afroasiatic
 Gonja,Niger-Congo
-Guazacapán,Xincan
+Guazacap&#225;n,Xincan
 Gumatj,Pama-Nyungan
 Gurani,Indo-European
 Gweno,Niger-Congo
-Güenoa,Charruan
+G&#252;enoa,Charruan
 Haitian Vodoun Culture Language,creole or pidgin
-Hakö,Austronesian
+Hak&#246;,Austronesian
 Halia,Austronesian
 Hazaragi,Indo-European
 Hismaic,Afroasiatic
 Hiw,Austronesian
 Hmwaveke,Austronesian
 Hoava,Austronesian
-Hobyót,Afroasiatic
+Hoby&#243;t,Afroasiatic
 Hote,Austronesian
 Huehuetla Tepehua,Totonacan
-Hulaulá,Afroasiatic
+Hulaul&#225;,Afroasiatic
 Huli,Engan
 Iamalele,Austronesian
 Iberian,isolate
@@ -2448,7 +2448,7 @@ Kakabai,Austronesian
 Kakanda,Niger-Congo
 Kala,Austronesian
 Kalkatungu,Pama-Nyungan
-Kamakan,Macro-Jê
+Kamakan,Macro-J&#234;
 Kamano,Trans-New Guinea
 Kamasa,Trans-New Guinea
 Kamasau,Torricelli
@@ -2487,10 +2487,10 @@ Komering,Austronesian
 Korlai Creole Portuguese,creole or pidgin
 Koshin,Niger-Congo
 Kowiai,Austronesian
-Krahô,Macro-Jê
+Krah&#244;,Macro-J&#234;
 Kresh,Nilo-Saharan
 Kubo,Trans-New Guinea
-Kuikúro,Cariban
+Kuik&#250;ro,Cariban
 Kuku-Yalanji,Pama-Nyungan
 Kuman,Trans-New Guinea
 Kurnai,Pama-Nyungan
@@ -2542,7 +2542,7 @@ Martu Wangka,Pama-Nyungan
 Masaba,Niger-Congo
 Masimasi,Austronesian
 Masiwang,Austronesian
-Matsés,Pano-Tacanan
+Mats&#233;s,Pano-Tacanan
 Maybrat,West Papuan
 Mbabaram,Pama-Nyungan
 Mbariman-Gudhinma,Pama-Nyungan
@@ -2568,7 +2568,7 @@ Mixifore,Niger-Congo
 Mmen,Niger-Congo
 Moere,Trans-New Guinea
 Moikodi,Trans-New Guinea
-Mondé,Tupian
+Mond&#233;,Tupian
 Mono (California),Uto-Aztecan
 Moose Cree,Algic
 Mori Atas,Austronesian
@@ -2583,7 +2583,7 @@ Muruwari,Pama-Nyungan
 Musgu,Afroasiatic
 Muya,Sino-Tibetan
 Muyang,Afroasiatic
-Mündü,Niger-Congo
+M&#252;nd&#252;,Niger-Congo
 Nabi,Torricelli
 Nakame,Trans-New Guinea
 Nali,Austronesian
@@ -2614,7 +2614,7 @@ Noon,Niger-Congo
 Northeast Maidu,Maiduan
 Northern Bai,Sino-Tibetan
 Northern Dagara,Niger-Congo
-Northern Emberá,Chocoan
+Northern Ember&#225;,Chocoan
 Northern Haida,isolate
 Northern Luri,Indo-European
 Northern Saharan Berber,Afroasiatic
@@ -2638,17 +2638,17 @@ Pahi,Sepik
 Papora,Austronesian
 Papuan Malay,unclassified
 Papuma,Austronesian
-Paratió,unclassified
-Pará Gavião,Macro-Jê
+Parati&#243;,unclassified
+Par&#225; Gavi&#227;o,Macro-J&#234;
 Paulohi,Austronesian
 Pele-Ata,Papuan
 Pemon,Cariban
 Penchal,Austronesian
 Pero,Afroasiatic
 Petats,Austronesian
-Peñoles Mixtec,Oto-Manguean
+Pe&#241;oles Mixtec,Oto-Manguean
 Pijao,unclassified
-Pilagá,Mataco-Guaicuru
+Pilag&#225;,Mataco-Guaicuru
 Plains Miwok,Yok-Utian
 Prasuni,Indo-European
 Proto-Atayalic,Austronesian
@@ -2665,7 +2665,7 @@ Rapa,Austronesian
 Rasawa,Lakes Plain
 Red Gelao,Kra-Dai
 Reel,Nilo-Saharan
-Rikbaktsa,Macro-Jê
+Rikbaktsa,Macro-J&#234;
 Ronga,Niger-Congo
 Roro,Austronesian
 Sa,Austronesian
@@ -2675,9 +2675,9 @@ Safeyoka,Trans-New Guinea
 Saliba (Colombia),unclassified
 Salinan,unclassified
 Saluan,Austronesian
-San Jerónimo Tecóatl Mazatec,Oto-Manguean
-San Pablo Güilá Zapotec,Oto-Manguean
-Sapé,unclassified
+San Jer&#243;nimo Tec&#243;atl Mazatec,Oto-Manguean
+San Pablo G&#252;il&#225; Zapotec,Oto-Manguean
+Sap&#233;,unclassified
 Sawai,Austronesian
 Sawi,Trans-New Guinea
 Seimat,Austronesian
@@ -2713,7 +2713,7 @@ Suau,Austronesian
 Suba-Simbiti,Niger-Congo
 Sukurum,Austronesian
 Sunwar,Sino-Tibetan
-Sácata,unclassified
+S&#225;cata,unclassified
 Tabo,Austroasiatic
 Tagish,Dene-Yeniseian
 Tairuma,Trans-New Guinea
@@ -2733,12 +2733,12 @@ Tommo So,Niger-Congo
 Tourangeau,Indo-European
 Trimuris,Tor-Kwerba
 Trinitario,Arawakan
-Trió,Cariban
+Tri&#243;,Cariban
 Trumai,isolate
 Tshangla,Sino-Tibetan
 Tuki,Niger-Congo
 Tumleo,Austronesian
-Tupinambá,Tupian
+Tupinamb&#225;,Tupian
 Turkana,Nilo-Saharan
 Tyap,Niger-Congo
 Uda,Niger-Congo
@@ -2772,12 +2772,12 @@ Wulguru,Pama-Nyungan
 Wutung,Sko
 Xamtanga,Afroasiatic
 Xaragure,Austronesian
-Xukurú,unclassified
+Xukur&#250;,unclassified
 Yabong,Trans-New Guinea
 Yakima,Plateau Penutian
 Yanesha',Arawakan
 Yangben,Niger-Congo
-Yanomamö,Yanomami
+Yanomam&#246;,Yanomami
 Yareni Zapotec,Oto-Manguean
 Yaweyuha,Trans-New Guinea
 Yekhee,Niger-Congo
@@ -2786,23 +2786,23 @@ Yindjilandji,Pama-Nyungan
 Yir-Yoront,Pama-Nyungan
 Yoidik,Trans-New Guinea
 Yorta Yorta,Pama-Nyungan
-Yuma,Yuman-Cochimí
+Yuma,Yuman-Cochim&#237;
 Yupua,Tucanoan
 Zande,Niger-Congo
 Zbu,Sino-Tibetan
 Zigula,Niger-Congo
 Zotung Chin,Sino-Tibetan
 Zulgo-Gemzek,Afroasiatic
-Záparo,Zaparoan
-Önge,Ongan
+Z&#225;paro,Zaparoan
+&#214;nge,Ongan
 Abai,Austronesian
 Abidji,Niger-Congo
 Abu,Ramu
 Abua,Niger-Congo
 Abun,Papuan
-Abé,Niger-Congo
+Ab&#233;,Niger-Congo
 Achi,Mayan
-Aché,Tupian
+Ach&#233;,Tupian
 Adang,Timor-Alor-Pantar
 Adioukrou,Niger-Congo
 Afade,Afroasiatic
@@ -2833,7 +2833,7 @@ Ali,Niger-Congo
 Alngith,Pama-Nyungan
 Alumu-Tesu,Niger-Congo
 Amara,Austronesian
-Amarakaeri,Harákmbut-Katukinan
+Amarakaeri,Har&#225;kmbut-Katukinan
 Amarasi,Austronesian
 Amba,Niger-Congo
 Ambakich,Ramu
@@ -2847,12 +2847,12 @@ Amol,Torricelli
 Ampari Dogon,Niger-Congo
 Ana Tinga Dogon,Niger-Congo
 Anam,Trans-New Guinea
-Anambé,Tupian
+Anamb&#233;,Tupian
 Andaqui,unclassified
 Andoa,Zaparoan
 Andoque,isolate
 Andoquero,Huitoto-Ocaina
-Angaité,Mascoian
+Angait&#233;,Mascoian
 Angoram,Lower Sepik
 Anii,Niger-Congo
 Animere,Niger-Congo
@@ -2866,20 +2866,20 @@ Aputai,Austronesian
 Arabana,Pama-Nyungan
 Aranadan,Dravidian
 Arara-Karo,Tupian
-Araweté,Tupian
+Arawet&#233;,Tupian
 Arawum,Trans-New Guinea
 Are,Austronesian
 Arhuaco,Macro-Chibchan
 Aribwatsa,Austronesian
-Arikapú,Macro-Jê
+Arikap&#250;,Macro-J&#234;
 Aringa,Nilo-Saharan
 Arop-Lokep,Austronesian
 Arritinngithigh,unclassified
 Arutani,unclassified
-Aruá,Tupian
+Aru&#225;,Tupian
 Ashraaf,Afroasiatic
-Asháninka,Arawakan
-Ashéninka Pajonal,Arawakan
+Ash&#225;ninka,Arawakan
+Ash&#233;ninka Pajonal,Arawakan
 Asoa,Nilo-Saharan
 Assangori,Nilo-Saharan
 Atampaya,Pama-Nyungan
@@ -2888,12 +2888,12 @@ Athpare,Sino-Tibetan
 Atohwaim,Trans-New Guinea
 Atong (Cameroon),Niger-Congo
 Aulua,Austronesian
-Aurá,Tupian
+Aur&#225;,Tupian
 Austronesian Mari,Austronesian
 Auyana,Trans-New Guinea
 Auye,Trans-New Guinea
 Avatime,Niger-Congo
-Avá-Canoeiro,Tupian
+Av&#225;-Canoeiro,Tupian
 Awa (New Guinea),Trans-New Guinea
 Awara,Trans-New Guinea
 Awera,Lakes Plain
@@ -2905,7 +2905,7 @@ Axamb,Austronesian
 Axi Yi,Sino-Tibetan
 Ayoquesco Zapotec,Oto-Manguean
 Azha,Sino-Tibetan
-Azoyú Me'phaa,Oto-Manguean
+Azoy&#250; Me'phaa,Oto-Manguean
 Baan,Niger-Congo
 Babungo,Niger-Congo
 Badaga,Dravidian
@@ -2921,7 +2921,7 @@ Bahau,Austronesian
 Bahinemo,Sepik
 Bahing,Sino-Tibetan
 Baimak,Trans-New Guinea
-Bakairí,Cariban
+Bakair&#237;,Cariban
 Baki,Austronesian
 Bakoko,Niger-Congo
 Bakulung,Niger-Congo
@@ -2943,12 +2943,12 @@ Baniwa,Arawakan
 Banka,Niger-Congo
 Bankan Tey Dogon,Niger-Congo
 Barapasi,East Geelvink Bay
-Barbareño,Chumashan
+Barbare&#241;o,Chumashan
 Barikewa,Trans-New Guinea
 Barok,Austronesian
 Barombi,Niger-Congo
 Barranbinya,Pama-Nyungan
-Barí,Macro-Chibchan
+Bar&#237;,Macro-Chibchan
 Basa,Niger-Congo
 Basaa,Niger-Congo
 Basap,Austronesian
@@ -3041,7 +3041,7 @@ Busang Kayan,Austronesian
 Butmas-Tur,Austronesian
 Buwal,Afroasiatic
 Byangsi,Sino-Tibetan
-Cabiyarí,Arawakan
+Cabiyar&#237;,Arawakan
 Cacua,Nadahup
 Caddo,Caddoan
 Calabrian Greek,Indo-European
@@ -3052,11 +3052,11 @@ Cara,Niger-Congo
 Cariay,Arawakan
 Cashibo-Cacataibo,Pano-Tacanan
 Cashinahua,Pano-Tacanan
-Catío Chibcha,Macro-Chibchan
+Cat&#237;o Chibcha,Macro-Chibchan
 Cayubaba,isolate
-Cañari,unclassified
+Ca&#241;ari,unclassified
 Central Asmat,Trans-New Guinea
-Central Mahuatlán Zapoteco,Oto-Manguean
+Central Mahuatl&#225;n Zapoteco,Oto-Manguean
 Central Masela,Austronesian
 Central Sama,Austronesian
 Central Subanen,Austronesian
@@ -3077,19 +3077,19 @@ Chinook,Chinookan
 Chono,unclassified
 Chopi,Niger-Congo
 Chuka,Niger-Congo
-Chácobo,Pano-Tacanan
+Ch&#225;cobo,Pano-Tacanan
 Cibak,Afroasiatic
 Cicipu,Niger-Congo
 Ciguayo,unclassified
 Cinta Larga,Tupian
 Classical Newar,Sino-Tibetan
 Coatecas Altas Zapotec,Oto-Manguean
-Coatlán Zapotec,Oto-Manguean
+Coatl&#225;n Zapotec,Oto-Manguean
 Coatzospan Mixtec,Oto-Manguean
 Cocos Islands Malay,creole or pidgin
 Cotabato Manobo,Austronesian
 Cross River Mbembe,Niger-Congo
-Cruzeño,Chumashan
+Cruze&#241;o,Chumashan
 Cua,Austroasiatic
 Cubeo,Tucanoan
 Cuitlatec,isolate
@@ -3104,7 +3104,7 @@ Dahalik,Afroasiatic
 Dai,Austronesian
 Dakaka,Austronesian
 Dakpa,Sino-Tibetan
-Dangaléat,Afroasiatic
+Dangal&#233;at,Afroasiatic
 Dano,Trans-New Guinea
 Darmiya,Sino-Tibetan
 Daro-Matu Melanau,Austronesian
@@ -3155,7 +3155,7 @@ Eastern Acipa,Niger-Congo
 Eastern Keres,Keresan
 Eastern Ngad'a,Austronesian
 Eastern Penan,Austronesian
-Ebrié,Niger-Congo
+Ebri&#233;,Niger-Congo
 Efutop,Niger-Congo
 Eggon,Niger-Congo
 Eipomek,Trans-New Guinea
@@ -3167,9 +3167,9 @@ Elotepec Zapotec,Oto-Manguean
 Eloyi,Niger-Congo
 Emae,Austronesian
 Eman,Niger-Congo
-Emberá-Catío,Chocoan
-Emberá-Chamí,Chocoan
-Emberá-Tadó,Chocoan
+Ember&#225;-Cat&#237;o,Chocoan
+Ember&#225;-Cham&#237;,Chocoan
+Ember&#225;-Tad&#243;,Chocoan
 Embu,Niger-Congo
 En,Kra-Dai
 Ende,Austronesian
@@ -3196,7 +3196,7 @@ Flinders Island,Pama-Nyungan
 Fogaha,Afroasiatic
 Fore,Trans-New Guinea
 Fungwa,Niger-Congo
-Fwâi,Austronesian
+Fw&#226;i,Austronesian
 Fyer,Afroasiatic
 Ga'dang,Austronesian
 Gaam,Nilo-Saharan
@@ -3214,7 +3214,7 @@ Gashowu,Yok-Utian
 Gavar,Afroasiatic
 Gawwada,Afroasiatic
 Gayil,Afroasiatic
-Gayón,Jirajaran
+Gay&#243;n,Jirajaran
 Gban,Niger-Congo
 Gbanu,Niger-Congo
 Gbanziri,Niger-Congo
@@ -3239,7 +3239,7 @@ Gor,Nilo-Saharan
 Green Hmong,Hmong-Mien
 Gresi,Nimboran
 Guahibo,Guahiban
-Guajá,Tupian
+Guaj&#225;,Tupian
 Guambiano,Barbacoan
 Guayabero,Guahiban
 Gude,Afroasiatic
@@ -3258,7 +3258,7 @@ Gupapuyngu,Pama-Nyungan
 Guro,Niger-Congo
 Guruntum,Afroasiatic
 Guyanese Creole English,creole or pidgin
-Guébie,Niger-Congo
+Gu&#233;bie,Niger-Congo
 Gvoko,Afroasiatic
 Gwahatike,Trans-New Guinea
 Gwara,Niger-Congo
@@ -3280,7 +3280,7 @@ Haya,Niger-Congo
 Hehe,Niger-Congo
 Heiltsuk,Wakashan
 Helong,Austronesian
-Herdé,Afroasiatic
+Herd&#233;,Afroasiatic
 Heyo,Torricelli
 Highland Oaxaca Chontal,Hokan
 Hitchiti,Muskogean
@@ -3300,7 +3300,7 @@ Ibani,Niger-Congo
 Idi,Papuan
 Idu,Sino-Tibetan
 Iduna,Austronesian
-Ifè,Niger-Congo
+If&#232;,Niger-Congo
 Ikizu,Niger-Congo
 Iko,Niger-Congo
 Ikobi-Mena,Trans-New Guinea
@@ -3310,7 +3310,7 @@ Ilgar,Iwaidjan
 Ilianen Manobo,Austronesian
 Indian Sign Language,sign language
 Indus Kohistani,Indo-European
-Ipai,Yuman-Cochimí
+Ipai,Yuman-Cochim&#237;
 Ipiko,Trans-New Guinea
 Ipulo,Niger-Congo
 Iquito,Zaparoan
@@ -3331,7 +3331,7 @@ Japanese Sign Language,Japanese Sign Languages
 Jaru,Pama-Nyungan
 Jawe,Austronesian
 Jeh,Austroasiatic
-Jeikó,Macro-Jê
+Jeik&#243;,Macro-J&#234;
 Jenaama Bozo,Niger-Congo
 Jeri Kuo,Niger-Congo
 Jerung,Sino-Tibetan
@@ -3343,7 +3343,7 @@ Jita,Niger-Congo
 Jowulu,Niger-Congo
 Juang,Austroasiatic
 Jur Modo,Nilo-Saharan
-Jurúna,Tupian
+Jur&#250;na,Tupian
 Kabishiana,Tupian
 Kaera,Trans-New Guinea
 Kagoro,Niger-Congo
@@ -3372,15 +3372,15 @@ Karankawa,unclassified
 Karbi,Sino-Tibetan
 Kare (New Guinea),Trans-New Guinea
 Karekare,Afroasiatic
-Kariri,Macro-Jê
+Kariri,Macro-J&#234;
 Karkar-Yuri,Pauwasi
 Katembri,unclassified
 Katukina,Pano-Tacanan
 Kaure,Papuan
 Kauwera,Tor-Kwerba
 Kawacha,Trans-New Guinea
-Kaxararí,Pano-Tacanan
-Kayabí,Tupian
+Kaxarar&#237;,Pano-Tacanan
+Kayab&#237;,Tupian
 Kayagar,Trans-New Guinea
 Kayan River Kayan,Austronesian
 Kayeli,Austronesian
@@ -3424,7 +3424,7 @@ Kolbila,Niger-Congo
 Koluwawa,Austronesian
 Komba,Trans-New Guinea
 Komyandaret,Trans-New Guinea
-Konabéré,Niger-Congo
+Konab&#233;r&#233;,Niger-Congo
 Konda,Trans-New Guinea
 Konkomba,Niger-Congo
 Konomala,Austronesian
@@ -3468,11 +3468,11 @@ Kwanja,Niger-Congo
 Kwanka,Niger-Congo
 Kwaya,Niger-Congo
 Kyenga,Niger-Congo
-Kâte,Trans-New Guinea
+K&#226;te,Trans-New Guinea
 Laal,unclassified
 Labu,Austronesian
 Labuk-Kinabatangan Kadazan,Austronesian
-Lachixío Zapotec,Oto-Manguean
+Lachix&#237;o Zapotec,Oto-Manguean
 Lafofa,Niger-Congo
 Lagwan,Afroasiatic
 Laha (Vietnam),Kra-Dai
@@ -3481,10 +3481,10 @@ Lamang,Afroasiatic
 Lamet,Austroasiatic
 Langnian Buyang,Kra-Dai
 Lango (Uganda),Nilo-Saharan
-Lapaguía-Guivini Zapotec,Oto-Manguean
+Lapagu&#237;a-Guivini Zapotec,Oto-Manguean
 Lardil,Tangkic
 Laru,Niger-Congo
-Latundê,Nambikwaran
+Latund&#234;,Nambikwaran
 Lauje,Austronesian
 Lavatbura-Lamusong,Austronesian
 Laven,Austroasiatic
@@ -3497,7 +3497,7 @@ Likum,Austronesian
 Linngithigh,Pama-Nyungan
 Lipan,Dene-Yeniseian
 Lishanid Noshan,Afroasiatic
-Lishán Didán,Afroasiatic
+Lish&#225;n Did&#225;n,Afroasiatic
 Lo-Toga,Austronesian
 Logba,Niger-Congo
 Logo,Nilo-Saharan
@@ -3524,7 +3524,7 @@ Luwo,Nilo-Saharan
 Ma Manda,Trans-New Guinea
 Ma'ya,Austronesian
 Mabaan,Nilo-Saharan
-Macaguán,Guahiban
+Macagu&#225;n,Guahiban
 Machame,Niger-Congo
 Macoris,unclassified
 Macuna,Tucanoan
@@ -3547,7 +3547,7 @@ Male,Trans-New Guinea
 Malibu,unclassified
 Malila,Niger-Congo
 Mam,Mayan
-Mamaindé,Nambikwaran
+Mamaind&#233;,Nambikwaran
 Manambu,Sepik
 Manao,Arawakan
 Manda (Australia),Daly
@@ -3593,7 +3593,7 @@ Mayangna,Macro-Chibchan
 Maykulan,Pama-Nyungan
 Maynas,unclassified
 Maypure,Arawakan
-Mazatlán Mazatec,Oto-Manguean
+Mazatl&#225;n Mazatec,Oto-Manguean
 Mbandja,Niger-Congo
 Mbesa,Niger-Congo
 Mbiywom,Pama-Nyungan
@@ -3605,13 +3605,13 @@ Mbuun,Niger-Congo
 Medebur,Austronesian
 Media Lengua,creole or pidgin
 Mefele,Afroasiatic
-Mehináku,Arawakan
+Mehin&#225;ku,Arawakan
 Mekeo,Austronesian
 Mekwei,Nimboran
 Melo,Afroasiatic
 Memoni,Indo-European
 Mengen,Austronesian
-Menien,Macro-Jê
+Menien,Macro-J&#234;
 Menka,Niger-Congo
 Meramera,Austronesian
 Merey,Afroasiatic
@@ -3664,7 +3664,7 @@ Mpur,West Papuan
 Mru,Sino-Tibetan
 Mualang,Austronesian
 Mubi,Afroasiatic
-Mucuchí,unclassified
+Mucuch&#237;,unclassified
 Muellama,Barbacoan
 Mum,Trans-New Guinea
 Mundabli,Niger-Congo
@@ -3683,7 +3683,7 @@ Mwaghavul,Afroasiatic
 Na,Sino-Tibetan
 Naba,Nilo-Saharan
 Nabak,Trans-New Guinea
-Nadëb,Nadahup
+Nad&#235;b,Nadahup
 Nafi,Austronesian
 Nage,Austronesian
 Nagtipunan Agta,Austronesian
@@ -3697,13 +3697,13 @@ Naro,Khoe-Kwadi
 Narom,Austronesian
 Narua,Sino-Tibetan
 Naskapi,Algic
-Natú,unclassified
+Nat&#250;,unclassified
 Nauete,Austronesian
 Naukanski,Eskimo-Aleut
 Nayi,Afroasiatic
 Ndali,Niger-Congo
 Ndemli,Niger-Congo
-Ndjébbana,Arnhem
+Ndj&#233;bbana,Arnhem
 Ndo,Nilo-Saharan
 Ndom,Trans-New Guinea
 Nedebang,Trans-New Guinea
@@ -3756,7 +3756,7 @@ Notsi,Austronesian
 Nsari,Niger-Congo
 Ntcham,Niger-Congo
 Nuk,Trans-New Guinea
-Nukak Makú,Nadahup
+Nukak Mak&#250;,Nadahup
 Numana,Niger-Congo
 Numanggang,Trans-New Guinea
 Nung,Kra-Dai
@@ -3773,11 +3773,11 @@ Nyindrou,Austronesian
 Nyoro,Niger-Congo
 Nyulnyul,Nyulnyulan
 Nzanyi,Afroasiatic
-Nüpode Huitoto,Huitoto-Ocaina
-Nǀuu,Tuu
-Obispeño,Chumashan
+N&#252;pode Huitoto,Huitoto-Ocaina
+N&#448;uu,Tuu
+Obispe&#241;o,Chumashan
 Obolo,Niger-Congo
-Ocotlán Zapotec,Oto-Manguean
+Ocotl&#225;n Zapotec,Oto-Manguean
 Odual,Niger-Congo
 Ogbah,Niger-Congo
 Ogbia,Niger-Congo
@@ -3793,7 +3793,7 @@ Omba,Austronesian
 Omi,Nilo-Saharan
 Onin,Austronesian
 Opao,Trans-New Guinea
-Opón,Cariban
+Op&#243;n,Cariban
 Oroha,Austronesian
 Orokolo,Trans-New Guinea
 Oruma,Niger-Congo
@@ -3809,7 +3809,7 @@ Paelignian,Indo-European
 Pagu,West Papuan
 Pahanan Agta,Austronesian
 Pai-lang,Sino-Tibetan
-Paicî,Austronesian
+Paic&#238;,Austronesian
 Paikoneka,Arawakan
 Pajapan Nahuatl,Uto-Aztecan
 Pakanha,Pama-Nyungan
@@ -3824,15 +3824,15 @@ Panamint,Uto-Aztecan
 Pande,Niger-Congo
 Pangseng,Niger-Congo
 Pangwa,Niger-Congo
-Pankararú,unclassified
+Pankarar&#250;,unclassified
 Papar,Austronesian
 Parawen,Trans-New Guinea
-Patagón,unclassified
+Patag&#243;n,unclassified
 Pattani,Sino-Tibetan
 Patwin,Wintuan
 Paunaca,Arawakan
 Pawaia,Papuan
-Payaguá,Mataco-Guaicuru
+Payagu&#225;,Mataco-Guaicuru
 Peere,Niger-Congo
 Pendau,Austronesian
 Perema,Niger-Congo
@@ -3868,19 +3868,19 @@ Proto-Southwestern Tai,Kra-Dai
 Proto-Takic,Uto-Aztecan
 Puinave,unclassified
 Pulabu,Trans-New Guinea
-Pumé,unclassified
+Pum&#233;,unclassified
 Punan Tubu,Austronesian
 Punu,Niger-Congo
 Puragi,Trans-New Guinea
 Purari,Papuan
-Purukotó,Cariban
+Purukot&#243;,Cariban
 Pwaamei,Austronesian
 Q'eqchi,Mayan
 Qabiao,Kra-Dai
 Qaqet,Baining
 Queyu,Sino-Tibetan
 Quimbaya,unclassified
-Quioquitani-Quierí Zapotec,Oto-Manguean
+Quioquitani-Quier&#237; Zapotec,Oto-Manguean
 Rahambuu,Austronesian
 Rakahanga-Manihiki,Austronesian
 Ralte,Sino-Tibetan
@@ -3893,7 +3893,7 @@ Rempi,Trans-New Guinea
 Rerau,Trans-New Guinea
 Rerep,Austronesian
 Reshe,Niger-Congo
-Resígaro,Arawakan
+Res&#237;garo,Arawakan
 Retta,Trans-New Guinea
 Riantana,Trans-New Guinea
 Ritarungo,Pama-Nyungan
@@ -3918,21 +3918,21 @@ Samarokena,Tor-Kwerba
 Sambe,Niger-Congo
 Samosa,Trans-New Guinea
 Samtao,Austroasiatic
-San Agustín Mixtepec Zapotec,Oto-Manguean
+San Agust&#237;n Mixtepec Zapotec,Oto-Manguean
 San Baltazar Loxicha Zapotec,Oto-Manguean
 San Marcos Tlalcoyalco Popoloca,Oto-Manguean
 San Pedro Quiatoni Zapotec,Oto-Manguean
-San Vicente Coatlán Zapotec,Oto-Manguean
-Sanapaná,Mascoian
+San Vicente Coatl&#225;n Zapotec,Oto-Manguean
+Sanapan&#225;,Mascoian
 Sandawe,isolate
 Sani,Sino-Tibetan
 Santa Catarina Albarradas Zapotec,Oto-Manguean
-Santa Inés Yatzechi Zapotec,Oto-Manguean
-Santa María Quiegolani Zapotec,Oto-Manguean
-Santa María Zacatepec Mixtec,Oto-Manguean
+Santa In&#233;s Yatzechi Zapotec,Oto-Manguean
+Santa Mar&#237;a Quiegolani Zapotec,Oto-Manguean
+Santa Mar&#237;a Zacatepec Mixtec,Oto-Manguean
 Santiago Xanica Zapotec,Oto-Manguean
 Santo Domingo Albarradas Zapotec,Oto-Manguean
-Sanumá,Yanomami
+Sanum&#225;,Yanomami
 Saponi,Papuan
 Saposa,Austronesian
 Sar,Nilo-Saharan
@@ -3976,7 +3976,7 @@ Sialum,Trans-New Guinea
 Siane,Trans-New Guinea
 Siar-Lak,Austronesian
 Sicel,Indo-European
-Sierra de Juárez Zapotec,Oto-Manguean
+Sierra de Ju&#225;rez Zapotec,Oto-Manguean
 Sihan,Trans-New Guinea
 Sileibi,Trans-New Guinea
 Silimo,Trans-New Guinea
@@ -3987,7 +3987,7 @@ Sinagen,Torricelli
 Siona,Tucanoan
 Sira,Niger-Congo
 Sirenik,Eskimo-Aleut
-Sirionó,Tupian
+Sirion&#243;,Tupian
 Siuslaw,unclassified
 Siwi,Afroasiatic
 Slavey,Dene-Yeniseian
@@ -4057,7 +4057,7 @@ Tanimbili,Austronesian
 Tanjijili,Niger-Congo
 Tanudan Kalinga,Austronesian
 Tara Baka,Nilo-Saharan
-Tarairiú,unclassified
+Tarairi&#250;,unclassified
 Taruma,unclassified
 Tatuyo,Tucanoan
 Taupota,Austronesian
@@ -4070,7 +4070,7 @@ Tedaga,Nilo-Saharan
 Tee,Niger-Congo
 Tegali,Niger-Congo
 Tejalapan Zapotec,Oto-Manguean
-Tembé,Tupian
+Temb&#233;,Tupian
 Temein,Nilo-Saharan
 Temiar,Austroasiatic
 Temne,Niger-Congo
@@ -4190,7 +4190,7 @@ Watiwa,Trans-New Guinea
 Watubela,Austronesian
 Wawonii,Austronesian
 Wayana,Cariban
-Wayumará,Cariban
+Wayumar&#225;,Cariban
 Wayuu,Arawakan
 West Greenlandic Pidgin,creole or pidgin
 West Makian,West Papuan
@@ -4202,21 +4202,21 @@ Western Subanon,Austronesian
 Western Tawbuid,Austronesian
 Wik-Me'anha,Pama-Nyungan
 Wik-Ngathana,Pama-Nyungan
-Wiraféd,Tupian
+Wiraf&#233;d,Tupian
 Wiru,Papuan
-Wirö,unclassified
+Wir&#246;,unclassified
 Wogamusin,Sepik
 Wolani,Trans-New Guinea
 Worimi,Pama-Nyungan
 Woun Meu,Chocoan
 Wusi,Austronesian
-Xakriabá,Macro-Jê
-Xanaguía Zapotec,Oto-Manguean
+Xakriab&#225;,Macro-J&#234;
+Xanagu&#237;a Zapotec,Oto-Manguean
 Xinca,Xincan
 Xipaya,Tupian
-Xiriâna,Arawakan
+Xiri&#226;na,Arawakan
 Xishanba Lalo,Sino-Tibetan
-Xokleng,Macro-Jê
+Xokleng,Macro-J&#234;
 Yabarana,Cariban
 Yaben,Trans-New Guinea
 Yabula Yabula,Pama-Nyungan
@@ -4228,7 +4228,7 @@ Yaka,Niger-Congo
 Yakoma,Niger-Congo
 Yalarnnga,Pama-Nyungan
 Yalunka,Niger-Congo
-Yalálag Zapotec,Oto-Manguean
+Yal&#225;lag Zapotec,Oto-Manguean
 Yambeta,Niger-Congo
 Yameo,unclassified
 Yaminahua,Pano-Tacanan
@@ -4241,7 +4241,7 @@ Yangulam,Trans-New Guinea
 Yangum Dey,Torricelli
 Yangum Mon,Torricelli
 Yansi,Niger-Congo
-Yaouré,Niger-Congo
+Yaour&#233;,Niger-Congo
 Yarawata,Trans-New Guinea
 Yarli,Pama-Nyungan
 Yarluyandi,Pama-Nyungan
@@ -4272,7 +4272,7 @@ Yuhup,Nadahup
 Yukpa,Cariban
 Yuracare,isolate
 Yuri,Ticuna-Yuri
-Yurutí,Tucanoan
+Yurut&#237;,Tucanoan
 Zakhring,Sino-Tibetan
 Zanaki,Niger-Congo
 Zangwal,Afroasiatic
@@ -4286,5 +4286,5 @@ Zimba,Niger-Congo
 Zinza,Niger-Congo
 Zirenkel,Afroasiatic
 Zumbun,Afroasiatic
-Àhàn,Niger-Congo
-ǀXam,Tuu
+&#192;h&#224;n,Niger-Congo
+&#448;Xam,Tuu

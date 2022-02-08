@@ -359,7 +359,22 @@ def byFamily():
                 r += b
             else:
                 s += b
-        lbf[s] = a[1]
+        s2 = ''
+        r = ''
+        for b in a[1]:
+            if b == '&':
+                mode = 2
+            elif b == '#' and mode == 2:
+                r = ''
+            elif b == ';' and mode == 2:
+                s2 += chr(int(r))
+                mode = 1
+            elif mode == 2:
+                r += b
+            else:
+                s2 += b
+        mode = 1
+        lbf[s] = s2
     familyfile.close()
     families = {}
     for a in sl:
@@ -401,5 +416,3 @@ def createMap(overlay):
             #print('Key', a)
             continue
     tc[0].update()
-
-byFamily()

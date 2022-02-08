@@ -42,6 +42,12 @@ for a in langlist:
     print(m)
     if len(a) == 0:
         continue
+    ar = ''
+    for b in a:
+        if ord(b) > 127:
+            ar += '&#' + str(ord(b)) + ';'
+        else:
+            ar += b
     ls = a
     if ls[(len(ls)-9):] != ' Language':
         ls += ' language'
@@ -62,7 +68,7 @@ for a in langlist:
             pass
         except IndexError:
             famlink = ' '
-            ritari.writerow([a, 'unclassified'])
+            ritari.writerow([ar, 'unclassified'])
             break
         if len(famlink) > 0:
             break
@@ -71,24 +77,30 @@ for a in langlist:
         continue
     sname = famlink.getText()
     if sname == 'language isolate':
-        ritari.writerow([a, 'isolate'])
+        ritari.writerow([ar, 'isolate'])
         continue
     if sname == 'constructed language':
-        ritari.writerow([a, 'constructed'])
+        ritari.writerow([ar, 'constructed'])
         continue
     if sname == 'sign language':
-        ritari.writerow([a, 'sign language'])
+        ritari.writerow([ar, 'sign language'])
         continue
     if sname == 'mixed language':
-        ritari.writerow([a, 'mixed'])
+        ritari.writerow([ar, 'mixed'])
         continue
+    snafn = ''
+    for b in sname:
+        if ord(b) > 127:
+            snafn += '&#' + str(ord(b)) + ';'
+        else:
+            snafn += b
     f = False
     try:
-        if len(subfamilies[sname]) == 0:
-            ritari.writerow[a, sname]
+        if len(subfamilies[snafn]) == 0:
+            ritari.writerow[ar, snafn]
         else:
-            g = subfamilies[sname]
-            ritari.writerow([a, g])
+            g = subfamilies[snafn]
+            ritari.writerow([ar, g])
         f = True
         continue
     except KeyError:
@@ -122,9 +134,15 @@ for a in langlist:
         if len(fam) > 0:
             break
         n += 1
-    if fam == sname:
-        subfamilies[fam] = ''
+    fi = ''
+    for b in fam:
+        if ord(b) > 127:
+            fi += '&#' + str(ord(b)) + ';'
+        else:
+            fi += b
+    if fam == snafn:
+        subfamilies[fi] = ''
     else:
-        subfamilies[sname] = fam
-    ritari.writerow([a, fam])
+        subfamilies[snafn] = fi
+    ritari.writerow([ar, fi])
 langfile.close()
